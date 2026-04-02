@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2150 >>
+stream
+BT /F2 20 Tf 1 0 0 1 54 748 Tm (App Summary) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 722 Tm (Repo evidence snapshot) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 704 Tm (What it is) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 686 Tm (Not found in repo. The repository contains no app source files, documentation, or) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 671 Tm (committed history, so the app itself cannot be identified from repo evidence.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 656 Tm (Who it is for) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 638 Tm (Primary user/persona: Not found in repo.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 623 Tm (What it does) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 605 Tm (- No product features were found in tracked files.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 590 Tm (- No UI, API, or service code was found in the working tree.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 575 Tm (- No README or docs describing capabilities were found.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 560 Tm (- No configuration files indicating integrations were found.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 545 Tm (- No tests or examples demonstrating behavior were found.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 530 Tm (- No git commits were present to infer prior functionality.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 515 Tm (How it works) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 497 Tm (Architecture overview: Not found in repo. Evidence available: only an empty git) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 482 Tm (repository with a .git directory, no commits on branch main, and no application files) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 467 Tm (to trace components, services, or data flow.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 452 Tm (How to run) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 434 Tm (1. App startup steps: Not found in repo.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 419 Tm (2. Required dependencies or services: Not found in repo.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54 404 Tm (3. Entry command or script: Not found in repo.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 389 Tm (Evidence used) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 371 Tm (- Working tree listing showed only .git.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 359 Tm (- git status reported: No commits yet on main.) Tj ET
+BT /F1 9 Tf 1 0 0 1 54 347 Tm (- git log had no history to inspect.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2597
+%%EOF

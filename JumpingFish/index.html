@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Drift</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <section class="game-panel">
+      <div class="hud">
+        <div class="hud-group">
+          <span class="hud-label">Score</span>
+          <span id="scoreDisplay" class="hud-score">0</span>
+        </div>
+        <div class="hud-group">
+          <span class="hud-label">Best</span>
+          <span id="bestScoreDisplay" class="hud-score hud-score-small">0</span>
+        </div>
+      </div>
+
+      <canvas
+        id="gameCanvas"
+        width="420"
+        height="680"
+        aria-label="Bubble Drift underwater fish game"
+      ></canvas>
+
+      <div id="startScreen" class="overlay">
+        <div class="card">
+          <p class="eyebrow">Underwater Arcade</p>
+          <h1>Bubble Drift</h1>
+          <p>Guide the fish through coral gaps.</p>
+          <p class="stat-line">Best score: <span id="startBestScore">0</span></p>
+          <p>Press <strong>Space</strong> or tap anywhere to swim upward.</p>
+          <button id="startButton" class="primary-button" type="button">Start Swim</button>
+        </div>
+      </div>
+
+      <div id="gameOverScreen" class="overlay hidden">
+        <div class="card">
+          <p class="eyebrow">Dive Ended</p>
+          <h2>Game Over</h2>
+          <p>Your score: <span id="finalScore">0</span></p>
+          <p class="stat-line">Best score: <span id="gameOverBestScore">0</span></p>
+          <button id="restartButton" class="primary-button" type="button">Swim Again</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
